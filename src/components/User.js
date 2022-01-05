@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Img from "../profilepic.jpeg";
+import Img from "../blankpp.png";
 import { onSnapshot, doc } from "firebase/firestore";
 import { db } from "../firebase";
 const User = ({user1, user, selectUser, chat}) => {
